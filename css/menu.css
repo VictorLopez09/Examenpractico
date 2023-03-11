@@ -1,0 +1,60 @@
+/*El menu*/
+.cabecera{
+    margin: auto;
+    width: 85%;
+}
+
+ul , ol {
+    list-style: none;
+}
+
+.nav li a{
+
+    color: #2a2929;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: #7670707c;
+}
+
+.nav > li{
+    float: right;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 70px;
+}
+
+.nav li:hover>ul{
+    display: block;
+}
+
+/*La cabecera*/
+
+header{
+    display: flex;
+
+    color: #fff;
+}
+
+header .imagen{
+    width: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+header p{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.Logo{
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
